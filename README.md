@@ -1,2 +1,7 @@
 # Android_Components
-Some exercises of Android
+Exercises of Android
+
+- User interface
+- Activities
+- Intents
+- Picasso library
