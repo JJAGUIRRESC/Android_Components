@@ -6,4 +6,4 @@ Exercises of Android
 - Intents
 - Buttons
 - Picasso library
-- Glide Library
+- Glide library
