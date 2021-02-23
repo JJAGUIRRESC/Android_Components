@@ -29,4 +29,19 @@ public class MainActivity extends AppCompatActivity {
         Intent intentButtonsActivity = new Intent (this, ButtonsActivity.class);
         startActivity(intentButtonsActivity);
     }
+
+    public void openCheckBoxActivity(View view) {
+        Intent intentCheckBoxActivity = new Intent (this, CheckBoxActivity.class);
+        startActivity(intentCheckBoxActivity);
+    }
+
+    public void openRadioButtonActivity(View view) {
+        Intent intentRadioButtonsActivity = new Intent (this, RadioButtonActivity.class);
+        startActivity(intentRadioButtonsActivity);
+    }
+
+    public void openVectorialImagensActivity(View view) {
+        Intent intentVectorialImagesActivity = new Intent (this, VectorialImagesActivity.class);
+        startActivity(intentVectorialImagesActivity);
+    }
 }

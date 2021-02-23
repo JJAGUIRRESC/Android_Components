@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CheckBoxActivity">
+
+    <CheckBox
+        android:id="@+id/checkBoxChapa"
+        android:onClick="onCheckboxClicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chapa y pintura" />
+
+    <CheckBox
+        android:id="@+id/checkBoxCristales"
+        android:onClick="onCheckboxClicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rotura cristal" />
+
+    <CheckBox
+        android:id="@+id/checkBoxMecanica"
+        android:onClick="onCheckboxClicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Avería mecánica" />
+</LinearLayout>
