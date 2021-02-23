@@ -5,5 +5,7 @@ Exercises of Android
 - Activities
 - Intents
 - Buttons
+- Linear and Relative Layout
 - Picasso library
 - Glide library
+- Constraint Layout
